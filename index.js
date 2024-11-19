@@ -6,7 +6,7 @@ const mongodb=require("./db")
 mongodb()
 app.use(cors(
   {
-  origin:[""],
+  origin:["https://frontend-xi-six-76.vercel.app"],
     methods:["POST","GET"],
 credentials :true
     }
